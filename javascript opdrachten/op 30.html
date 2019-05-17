@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 30</title>
+</head>
+<body>
+<h1>Tellende lus 3</h1>
+
+<label for="tafel">Welke tafel?</label> <br>
+<input id="tafel" type="text"> <br> <br>
+
+<button onclick="bereken()">OK</button>
+
+<script>
+    function bereken() {
+        //invoer
+        var tafel = document.getElementById("tafel").value;
+
+        //uitvoer
+        // i=1 is de beginwaarde
+        // i<10 is de eindwaarde
+        // i++ is de stapwaarde hetzelfde als i=i+1
+
+        for (i = 1; i <= 20; i = i + 1) {
+            document.write("<p>" + i * tafel + "</p>");
+        }
+    }
+</script>
+</body>
+</html>
