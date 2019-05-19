@@ -1,0 +1,159 @@
+body{
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    margin: 0;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: black;
+}
+.header1 h1{
+
+    font-size: 100px;
+    color: black;
+    margin: 10px;
+}
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+h1 {
+     color:steelblue ;
+    text-align: center;
+    font-size: 70px;
+
+}
+h2
+{
+    text-decoration: none;
+    background-color: rgba(128,128,128, .5);
+
+
+    margin: 0px;
+    padding: 10px;
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    /*height: 300px;*/
+}
+img {
+    height: 300px;
+    width: 350px;
+}
+.about {
+    display: flex;
+}
+
+
+fieldset {
+    width: 500px;
+    margin: 0 auto;
+}
+input {
+    float: right;
+}
+textarea {
+    float: right;
+}
+select {
+    float: right;
+}
+h2 {
+
+    color:steelblue ;
+    font-size: 40px;
+}
+.formulier {
+    background-color: rgba(128,128,128, .5);
+
+}
+
+.download {
+    background-color: rgba(128,128,128, .5);
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+
+
+
+}
+
+a[download] {
+    color: hsla(216, 70%, 53%, 1);
+    text-decoration: underline;
+}
+
+a[download]::before {
+    content: url(if_icon-97-folder-download_314781.png);
+
+    top: 0.75em;
+    right: 0.5em;
+    width: 40;
+}
+
+a[download]:hover,
+a[download]:focus {
+    text-decoration: none;
+}
+.table {
+
+    margin: 20px;
+    width: 300px;
+}
+a:link {
+    text-decoration: none;
+}
+
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 30px;
+    color: red;
+}
+ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+[]
+
+}
