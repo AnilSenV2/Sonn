@@ -1,0 +1,38 @@
+.navbar-fixed-left {
+    margin-top: -10.6%;
+    width: 140px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+    float: none;
+    width: 139px;
+}
+
+.navbar-fixed-left + .container {
+    padding-left: 160px;
+}
+
+
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+    margin-top: -50px;
+    margin-left: 140px;
+}
+
+.btn-danger {
+    color: black;
+    background-color: limegreen;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: gold;
+
+}
+
+.btn-danger:hover {
+    color: black;
+    background-color: limegreen;
+    border-color: green;
+}

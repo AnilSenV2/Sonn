@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="test/FeedEk.min.js"></script>
+    <script type="text/javascript" src="test/FeedEk.js"></script>
+<body>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#divRss').FeedEk({
+            FeedUrl : 'https://www.mijn-eigen-website.nl/rss-mijn-eigen-website.xml',
+            MaxCount : 5,
+            ShowDesc : false,
+            ShowPubDate : true
+        }); }); </script>
+
+
+<div id="divRss"> </div>
+
+</body>
+</html>
